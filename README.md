@@ -2,6 +2,10 @@
 
 This is a simple script written in Rust that randomly pulls a quote from a database of JRR Tolkien quotes (quotes.json), formats them, and send them to a Telegram bot. I then run it as a systemd service on my home server. 
 
+![Chat example]("./chat_example_pic.jpg")
+
+I got the quotes from the very fabulous http://lotrproject.com/
+
 
 ## Make it work 
 
@@ -12,7 +16,7 @@ Then get the CHAT_ID - instructions for how to do that are here https://stackove
 create an .env file in the project root directory and add the BOT_TOKEN and CHAT_ID to it like this - note the bot token is taken as a string and the chat id is an integer with no quotes. 
 
 ```bash
-TELEGRAM_BOT_TOKEN="<bot token string>"
+TELEGRAM_BOT_TOKEN="<bot token string>"s
 CHAT_ID=<chat  id integer>
 ```
 
