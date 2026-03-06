@@ -2,8 +2,7 @@
 
 This is a simple script written in Rust that randomly pulls a quote from a database of JRR Tolkien quotes (quotes.json), formats them, and send them to a Telegram bot. I then run it as a systemd service on my home server. 
 
-<img src="./chat_example_pic.png" alt="example telegram chat image" style="border-radius: 10px;">
-
+<img src="./chat_example_pic.png" alt="example telegram chat image" width="400" style="border-radius: 10px;">
 I got the quotes from the very fabulous http://lotrproject.com/
 
 
